@@ -333,7 +333,7 @@ try {
             throw new Exception('Database query error');
         }
 
-        $set_stmt = $site_db->prepare("SELECT entry, name FROM site_items WHERE itemset = ? ORDER BY entry");
+        $set_stmt = $world_db->prepare("SELECT entry, name FROM item_template WHERE itemset = ? ORDER BY entry");
         if (!$set_stmt) {
             error_log("Failed to prepare set items query: " . $site_db->error);
             throw new Exception('Database query error');
