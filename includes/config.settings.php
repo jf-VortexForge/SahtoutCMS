@@ -21,7 +21,7 @@ $social_links = [
     'twitter' => 'https://x.com/blodyiheb',
     'tiktok' => 'https://tiktok.com/blodyiheb',
     'youtube' => 'https://www.youtube.com/@Blodyone',
-    'discord' => 'https://discord.gg/chxXTXXQ6M',
+
     'twitch' => 'https://twitch.tv',
     'kick' => 'https://kick.com/blodyiheb',
     'instagram' => 'https://instagram.com',

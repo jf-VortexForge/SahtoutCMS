@@ -170,7 +170,6 @@ if (file_exists($project_root . 'includes/config.settings.php')) {
                         'twitter'   => ['icon' => 'fab fa-x-twitter', 'alt' => 'Twitter (X)'],
                         'tiktok'    => ['icon' => 'fab fa-tiktok', 'alt' => 'TikTok'],
                         'youtube'   => ['icon' => 'fab fa-youtube', 'alt' => 'YouTube'],
-                        'discord'   => ['icon' => 'fab fa-discord', 'alt' => 'Discord'],
                         'twitch'    => ['icon' => 'fab fa-twitch', 'alt' => 'Twitch'],
                         'instagram' => ['icon' => 'fab fa-instagram', 'alt' => 'Instagram'],
                         'github'    => ['icon' => 'fab fa-github', 'alt' => 'GitHub'],
