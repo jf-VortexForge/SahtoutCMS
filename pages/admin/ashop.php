@@ -145,8 +145,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         exit;
                     }
 
-                    $sql = "SELECT COUNT(*) FROM site_items WHERE itemset = ?";
-                    $stmt = $site_db->prepare($sql);
+                    $sql = "SELECT COUNT(*) FROM item_template WHERE itemset = ?";
+                    $stmt = $world_db->prepare($sql);
                     $stmt->bind_param("i", $itemset_id);
                     $stmt->execute();
                     $stmt->bind_result($count);
